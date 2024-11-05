@@ -171,10 +171,10 @@ export const managers = [
       "managerID": "995881230036000768",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Tanner Clary",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "?", // (optional)
+      "location": "San Francisco", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Luke Johnson", // Can be anything (usually your rival's name)
