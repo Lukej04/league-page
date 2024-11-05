@@ -192,7 +192,7 @@ export const managers = [
       "managerID": "996507616723517440",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Justin Sprumont",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "?", // (optional)
+      "location": "Raleigh", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
