@@ -7,7 +7,10 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>The Dynasty League full of Newbies and Dumbasses</p>
+  <p>Welcome to the Fantasy Gridiron Dynasty League - the most cutthroat, chaotic, and, hopefully, long-lasting fantasy football league in existence. What started as a humble gathering of 10 friends will morph into </p>
+  <p>a multi-generational battle for fantasy football supremacy. The league is overseen by a trio of all-powerful commissioners, each with their own unique brand of tyranny. Together, this unholy group of commissioners</p>
+  <p>ensure that the Fantasy Gridiron Dynasty League remains the most ruthlessly competitive, absurdly complicated, and gloriously entertaining fantasy experience known to man. Alliances are formed and broken, </p>
+  <p>trash talk echoes through group chats, and triumph one year is no guarantee of success the next. Only the strongest, boldest, and most tenacious owner will survive. The rest? Well, they'll just have to wait until next year.</p>
 `;
 
 /*   STEP 3   */
