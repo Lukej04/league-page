@@ -49,7 +49,7 @@ export const managers = [
       "name": "Trace Pigg",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Denver", // (optional)
-      "bio": "Still Working",
+      "bio": "Piggskin Prophecy’s manager is a feared and respected competitor that toils over roster construction and lineup optimization, entering every week with confidence. As Sunday nears, he analyzes his opponent, laughing at their pitiful excuse for a dynasty team. At week’s end, he’s easily added another win to his record. Other managers may question his trades, starts, and draft picks, but when you know what he knows, there’s no bad decisions. ",
       "photo": "/managers/Trace.png", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -61,7 +61,7 @@ export const managers = [
       "favoritePlayer": 169, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Still Working Also",
+      "philosophy": "When we win, it was earned. When we lose, it was bad luck.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
