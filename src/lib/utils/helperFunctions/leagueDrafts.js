@@ -91,7 +91,7 @@ const buildFromScratch = (rosters, previousOrder, rounds, picks, regularSeasonLe
 		}
 	}
 
-	const row = new Array(rosterKeys.length);
+	const row = 4;
 	let draft = [];
 
 	for(let i = 0; i < rounds; i++) {
