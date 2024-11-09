@@ -228,7 +228,6 @@ export const getPreviousDrafts = async () => {
         
             drafts.push(newDraft);
         }
-	
 	}
 	
 	previousDrafts.update(() => drafts);
