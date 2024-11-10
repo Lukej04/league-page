@@ -1,7 +1,7 @@
 <script>
     import { dues } from '$lib/utils/helper';
     let one, oneOne;
-    let two, twoOne, twoOneOne, twoTwo, twoTwoOne, twoTwoTwo, twoTwoThree, twoTwoFour, twoTwoFive, twoThree;
+    let two, twoOne, twoTwo, twoTwoOne, twoTwoTwo, twoTwoThree, twoTwoFour, twoTwoFive, twoThree;
     let three, threeOne, threeTwo, threeThree, threeFour;
     let four, fourOne;
     let five, fiveOne;
@@ -108,7 +108,6 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(twoOneOne)}>2.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Trading</h4>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(twoTwoOne)}>2.2.1 Trade Collusion</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(twoTwoTwo)}>2.2.2 Lending Players Prohibition</h5>
@@ -163,7 +162,7 @@
     <h2 class="sectionHeading" bind:this={one}>Section 1 League Governance</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Commissioners</h3>
-    <p>The Fantasy Girdiron Dynasty League is a 10 team league run though the Sleeper app. The leauge will be governed by a board of 3 commissioners (Matty Jorgensen, Trace Pigg & Luke Johnson). Commissioner duties include enforcing rules, managing league finances, facilitating offseason activities, and adjudicating disputes. Commissioners will serve indefinitely until self-demotion or removal from the legue.</p>
+    <p>The Fantasy Girdiron Dynasty League is a 10 team league run though the Sleeper app. The league will be governed by a board of 3 commissioners (Matty Jorgensen, Trace Pigg & Luke Johnson). Commissioner duties include enforcing rules, managing league finances, facilitating offseason activities, and adjudicating disputes. Commissioners will serve indefinitely until self-demotion or removal from the legue.</p>
     <p>Major league decisions (rule changes, expansion, realignment) require a 8/2 owner vote.</p>
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Roster Breakdown</h2>
@@ -186,26 +185,12 @@
         <li>SUPERFLEX (QB/RB/WR/TE)</li>
     </ul>
     
-    <p>14 Bench</p>
+    <p>14 Player Bench</p>
 
     <p>2 IR Spots (Player must be labeled as IR in the Sleeper App)</p>
 
     <p>4 Taxi Spots - ROOKIES ONLY. Players can be activated to roster anytime but cannot be returned to taxi squad once regular season starts. (Players with more than 1 year NFL experience must be activated from taxi squad)</p>
     
-        <h4 bind:this={twoOneOne}>2.1.1 Position Maximums</h4>
-        
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
-            </table>
-        </div>
-
-
     <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Trading</h3>
     
     <p>Trading of players and draft picks (up to 3 drafts away) are allowed. All trades process immediately unless suspicious behavior or collusion is detected by the league or commissioners. Tradable assets include players and draft picks.</p>
