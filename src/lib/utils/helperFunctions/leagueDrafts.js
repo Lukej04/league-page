@@ -90,14 +90,14 @@ const buildFromScratch = (rosters, previousOrder, rounds, picks, regularSeasonLe
 
 	const row = new Array(rosterKeys.length);
 	let draft = [];
-	let rounds = 4;
+	const Rookierounds = 4;
 
-	for(let i = 0; i < rounds; i++) {
+	for(let i = 0; i < Rookierounds; i++) {
 		draft.push([...row]);
 	}
 
 	for(const pick of picks) {
-		if(pick.owner_id == pick.roster_id || pick.round > rounds) continue;
+		if(pick.owner_id == pick.roster_id || pick.round > Rookierounds) continue;
 		draft[pick.round - 1][draftOrder.indexOf(pick.roster_id)] = pick.owner_id;
 	}
 
