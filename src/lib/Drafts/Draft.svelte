@@ -131,9 +131,9 @@
             {/each}
         </Row>
     </Head>
-    <Body>
+    <Body> //Luke updated since initial draft is different then the remaining rookie drafts
         {#each draft as draftRow, row}
-            {#if year === 2024} //Luke updated since initial draft is different then the remaining rookie drafts
+            {#if year === 2024} 
                 <DraftRow {draftRow} row={row + 1} {previous} {reversalRound} {draftType} {players} {leagueTeamManagers} {year} />
             {:else}
                 <DraftRow {draftRow} row={row + 1} {previous} {players} {leagueTeamManagers} {year} />
