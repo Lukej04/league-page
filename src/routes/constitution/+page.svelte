@@ -283,7 +283,7 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 Tanking Policy</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections. In an attempt to deter tanking, those who do not make the playoffs will be subject to inverse MaxPF to determine their draft order. MaxPF includes the points that could have been scored for all players on your team, including your starting lineup, bench, IR and taxi squad players.</p>
 
     <h2 class="sectionHeading" bind:this={eight}>Section 8 Conduct and Sportsmanship</h2>
     
