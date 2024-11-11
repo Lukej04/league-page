@@ -196,24 +196,16 @@
     
     <h4 bind:this={twoTwoOne}>2.2.1 Trade Collusion</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, or otherwise found guilty of engaging in any form of collusion, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
+        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, or otherwise found guilty of engaging in any form of collusion, all parties involved in the trade will be susceptible to punishment.</p>
 
         <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
-
-        <p>Collusion includes the organizing of veto votes against an acceptable trade.</p>
 
         <p>The commissioners will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioners reserve the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
     </div>
 
     <h4 bind:this={twoTwoTwo}>2.2.2 Lending Players Prohibition</h4>
     <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
+        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to punishment.</p>
     </div>
     
     <h4 bind:this={twoTwoThree}>2.2.3 Trade Deadline</h4>
