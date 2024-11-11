@@ -133,7 +133,7 @@
     </Head>
     <Body>
         {#each draft as draftRow, row}
-            <DraftRow {draftRow} row={row + 1} {previous} {draftType} {players} {leagueTeamManagers} {year} />
+            <DraftRow {draftRow} row={row + 1} {previous} {players} {leagueTeamManagers} {year} />
         {/each}
     </Body>
 </DataTable>
