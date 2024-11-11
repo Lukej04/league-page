@@ -78,11 +78,8 @@ const buildFromScratch = (rosters, previousOrder, rounds, picks, regularSeasonLe
 		const sortedRosterKeys = rosterKeys.sort((a, b) => {
 			const rosterA = rosters[a].settings;
 			const rosterB = rosters[b].settings;
-			if(rosterA.wins != rosterB.wins) {
-				return rosterA.wins - rosterB.wins;
-			}
-			if(rosterA.ties != rosterB.ties) {
-				return rosterA.ties - rosterB.ties;
+			if(rosterA.fpts != rosterB.fpts) {
+				return rosterA.fpts - rosterB.fpts;
 			}
 			return (rosterA.fpts + rosterA.fpts_decimal / 100) - (rosterB.fpts + rosterB.fpts_decimal / 100);
 		})
