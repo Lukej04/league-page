@@ -78,7 +78,7 @@ const buildFromScratch = (rosters, previousOrder, rounds, picks, regularSeasonLe
 		const sortedRosterKeys = rosterKeys.sort((a, b) => {
 			const rosterA = rosters[a].settings;
 			const rosterB = rosters[b].settings;
-			if(rosterA.fpts != rosterB.fpts) {
+			if(rosterA.fpts != rosterB.fpts) {	//Luke changed this and the return values to base the upcoming drafts based on points and not wins and loses
 				return rosterA.fpts - rosterB.fpts;
 			}
 			return (rosterA.fpts + rosterA.fpts_decimal / 100) - (rosterB.fpts + rosterB.fpts_decimal / 100);
@@ -90,7 +90,7 @@ const buildFromScratch = (rosters, previousOrder, rounds, picks, regularSeasonLe
 
 	const row = new Array(rosterKeys.length);
 	let draft = [];
-	const Rookierounds = 4;
+	const Rookierounds = 4; //Luke added to make the new draft only 4 rounds (Each of the Rookierounds was just rounds)
 
 	for(let i = 0; i < Rookierounds; i++) {
 		draft.push([...row]);
