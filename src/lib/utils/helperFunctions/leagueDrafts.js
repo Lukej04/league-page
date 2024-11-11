@@ -90,6 +90,7 @@ const buildFromScratch = (rosters, previousOrder, rounds, picks, regularSeasonLe
 
 	const row = new Array(rosterKeys.length);
 	let draft = [];
+	let rounds = 4;
 
 	for(let i = 0; i < rounds; i++) {
 		draft.push([...row]);
