@@ -133,7 +133,11 @@
     </Head>
     <Body>
         {#each draft as draftRow, row}
-            <DraftRow {draftRow} row={row + 1} {previous} {players} {leagueTeamManagers} {year} />
+            {#if year === 2024}
+                <DraftRow {draftRow} row={row + 1} {previous} {reversalRound} {draftType} {players} {leagueTeamManagers} {year} />
+            {:else}
+                <DraftRow {draftRow} row={row + 1} {previous} {players} {leagueTeamManagers} {year} />
+            {/if}
         {/each}
     </Body>
 </DataTable>
