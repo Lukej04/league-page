@@ -1,6 +1,6 @@
 {
   "name": "league-page",
-  "version": "2.3.5",
+  "version": "2.3.4",
   "homepage": "https://github.com/nmelhado/league-page",
   "repository": {
     "type": "git",
@@ -86,3 +86,5 @@
     "fast-xml-parser": "^4.2.5",
     "fuzzyjs": "^5.0.1",
     "svelte": "^3.50.1"
+  }
+}
