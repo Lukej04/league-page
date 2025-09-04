@@ -12,7 +12,7 @@ export const homepageText = `
   <p>Alliances are formed and broken, trash talk echoes through group chats, and triumph one year is no guarantee of success the next. Only the strongest, boldest, and most tenacious owner will survive. </p>
   <p>The rest? Well, they'll just have to wait until next year.</p>
 `;
-/*   STEP 3   */
+/*   STEP 3   Testing*/
 /*
 3 managers as an example. Uncomment (remove the //) before each line to make it live code
 If you're having trouble, reference the Training Wheels' Manager Section
